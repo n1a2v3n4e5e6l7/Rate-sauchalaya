@@ -7,7 +7,7 @@ export default class SantaAnimation extends React.Component {
     return (
 
       <Image
-      source={require('../assets/BookSanta.svg')}
+      source={require('../assets/book.png')}
       style={{width:"60%"}}
        />
     )

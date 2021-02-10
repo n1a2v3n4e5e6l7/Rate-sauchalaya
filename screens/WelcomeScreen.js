@@ -71,7 +71,7 @@ export default class WelcomeScreen extends Component {
       .auth()
       .signInWithEmailAndPassword(emailId, password)
       .then(() => {
-        this.props.navigation.navigate("DonateBooks");
+        this.props.navigation.navigate("ReviewList");
       })
       .catch(error => {
         var errorCode = error.code;
